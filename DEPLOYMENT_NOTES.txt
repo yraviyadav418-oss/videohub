@@ -1,0 +1,7 @@
+Before public deployment:
+- Set SESSION_SECRET to a long random secret.
+- Set NODE_ENV=production behind HTTPS.
+- Configure persistent storage for ./data/videohub.sqlite.
+- Use a host that supports Node.js and persistent disk storage.
+- Add CSRF protection, admin audit logging, backups, and production monitoring before a public launch.
+- Ensure you have rights to distribute all video files and downloads.
